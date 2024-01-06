@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- navbar-menu -->
+        <header>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary"
+                    id="menu-bg">
+                    <div id="logo">
+                        <a href="#"><img src="./images/logo.png"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center"
+                        id="navbarNavDropdown">
+                        <ul class="navbar-nav p-2">
+                            <li class="nav-item">
+                                <a class="nav-link active nav-1"
+                                    aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#dish">Dish</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#chef">Chefs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="#">Generic</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="#">Elements
+                                        </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+       
+        <!-- header -->
+        <section class="banner-area" id="home">
+                    <div class="banner-content">
+                        <h4 class="text-white text-uppercase">Wide
+                            Options
+                            of
+                            Choice</h4>
+                        <h1 class="text-white ">
+                            Delicious Receipes
+                        </h1>
+                        <p class="text-white">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit, sed do eiusmod temp <br> or incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim.
+                        </p>
+                        <a href="#"
+                            class="primary-btn header-btn text-uppercase">Check
+                            Our Menu</a>
+                    </div>
+        </section>
+
+        <section id="dish">
+            <div class="container">
+                <div
+                    class="row d-felx align-items-center justify-content-center">
+                    <div class="title text-center p-5">
+                        <h1 class="mb-15 p-2">Our Top Rated
+                            Dishes</h1>
+                        <p>Who are in extremely love with eco friendly
+                            system.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row title text-center p-2">
+                <div class="col-lg-4 img-zoom-1">
+                    <div class="thumb">
+                        <img class="img-fluid"
+                            src="./images/d1.jpg">
+                    </div>
+                    <h4 class="text-uppercase pt-20 pb-20">Bread Fruit
+                        Cheese Sandwich</h4>
+                    <p>
+                        inappropriate behavior is often laughed off
+                        as<br>“boys will be boys,” women face higher conduct
+                        <br>women face higher conduct.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 img-zoom-2">
+                    <div class="thumb">
+                        <img class="img-fluid" src="./images/d2.jpg">
+                    </div>
+                    <h4 class="text-uppercase pt-20 pb-20">Beef Cutlet with
+                        Spring Onion</h4>
+                    <p>
+                        inappropriate behavior is often laughed off
+                        as<br>“boys will be boys,” women face higher
+                        conduct<br>women face higher conduct.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 img-zoom-3">
+                    <div class="thumb">
+                        <img class="img-fluid" src="./images/d3.jpg">
+                    </div>
+                    <h4 class="text-uppercase pt-20 pb-20">Meat with sauce &
+                        Vegetables</h4>
+                    <p>
+                        inappropriate behavior is often laughed off
+                        as<br>“boys will be boys,” women face higher
+                        conduct<br>women face higher conduct.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- sec-video -->
+    <section class="video">
+        <a class="play-btn p-3"
+            href="https://www.youtube.com/watch?v=0O2aH4XLbto">
+            <img src="./images/play-btn.png">
+        </a>
+        <h3 class="text-white p-3">We Always serve the vaping hot and
+            delicious foods</h3>
+        <p class="text-white p-1">Youtube video will appear in popover</p>
+    </section>
+
+    <!-- cook-sec -->
+    <section class="cook-area">
+        <div class="cook-header">
+            <div class="cook-img1">
+                <img src="./images/f1.png">
+                <h4>Refreshing Breakfast</h4>
+                <p>Lorem ipsum dolor sit ametcons ecteturadipis icing
+                    elit.</p>
+            </div>
+            <div class="cook-img2">
+                <img src="./images/f2.png">
+                <h4>Awesome Lunch</h4>
+                <p>Lorem ipsum dolor sit ametcons ecteturadipis icing
+                    elit.</p>
+            </div>
+            <div class="cook-img3">
+                <img src="./images/f3.png">
+                <h4>RSoothing Dinner</h4>
+                <p>Lorem ipsum dolor sit ametcons ecteturadipis icing
+                    elit.</p>
+            </div>
+            <div class="cook-img4">
+                <img src="./images/f4.png">
+                <h4>Rich Quality Buffet</h4>
+                <p>Lorem ipsum dolor sit ametcons ecteturadipis icing
+                    elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider-sec -->
+    <section class="slider-area">
+
+        <div class="title text-center slider-head">
+            <h1 class="mb-10">Our Featured Food Menus</h1>
+            <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="slider-header">
+            <button id="next"><i class="fa-solid fa-forward"></i></button>
+            <div class="slider-text">
+                <h3>
+                    Fresh &amp; Crispy All the time
+                </h3>
+                <p>
+                    Who are in extremely love with eco friendly system. Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#"
+                    class="btn-text text-uppercase">view
+                    full menu</a>
+            </div>
+            <div class="slider-img">
+                <img src="./images/slider1.jpg" class="slider-show">
+            </div>
+            <button id="previous"><i
+                    class="fa-solid fa-backward"></i></button>
+        </div>
+    </section>
+
+    <!-- chef-area -->
+    <section class="chef-area" id='chef'>
+        <div class="chef-header">
+            <h1>Meet Our Qualified Chefs</h1>
+            <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+        <div class="chef-p">
+
+            <div class="chef1">
+                <div
+                    class="chef-icon1">
+                    <a><i class="fa-brands fa-facebook-f"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="chef-text">
+                    <h5>Ethel Davis
+                    </h5>
+                    <p>Managing Director (Sales)</p>
+                </div>
+
+            </div>
+
+            <div class="chef2">
+                <div class="chef-icon2">
+                    <a><i class="fa-brands fa-facebook-f"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="chef-text">
+                    <h5>Rodney Cooper
+                    </h5>
+                    <p>Creative Art Director (Project)</p>
+                </div>
+            </div>
+
+            <div class="chef3">
+                <div class="chef-icon3">
+                    <a><i class="fa-brands fa-facebook-f"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="chef-text">
+                    <h5>Dora Walker</h5>
+                    <p>Senior Core Developer</p>
+                </div>
+
+            </div>
+
+            <div class="chef4">
+                <div class="chef-icon4">
+                    <a><i class="fa-brands fa-facebook-f"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="chef-text">
+                    <h5>Lena Keller</h5>
+                    <p>Creative Content Developer</p>
+                </div>
+            </div>
+        
+        </div>
+        </section>
+        
+        <!-- blog-area -->
+        <section class="blog-area" id="blog">
+            <div class="container">
+
+                <div class="row d-flex justify-content-center">
+
+                    <div class="menu-content pb-70 col-lg-8">
+                        <div class="title text-center blog-header">
+                            <h1 class="mb-10">Latest From Our Blog</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row blog-card">
+
+                    <div class="col-lg-3 col-md-6 blog-zoom-1">
+                        <div class="thumb">
+                            <img class="img-fluid" src="./images/b1.jpg"
+                                alt>
+                        </div>
+                        <p class="date">10 Jan 2018</p>
+                        <h4 class="blog-text">Cooking Perfect Fried Rice
+                            in minutes</h4>
+                        <p>
+                            inappropriate behavior ipsum dolor sit amet,
+                            consectetur.
+                        </p>
+                        <div
+                            class="meta-bottom d-flex justify-content-between">
+                            <p><span class="lnr lnr-heart"></span> 15
+                                Likes</p>
+                            <p><span class="lnr lnr-bubble"></span> 02
+                                Comments</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 blog-zoom-2">
+                        <div class="thumb">
+                            <img class="img-fluid" src="./images/b2.jpg"
+                                alt>
+                        </div>
+                        <p class="date">10 Jan 2018</p>
+                        <h4 class="blog-text">Secret of making Heart
+                            Shaped eggs</h4>
+                        <p>
+                            inappropriate behavior ipsum dolor sit amet,
+                            consectetur.
+                        </p>
+                        <div
+                            class="meta-bottom d-flex justify-content-between">
+                            <p><span class="lnr lnr-heart"></span> 15
+                                Likes</p>
+                            <p><span class="lnr lnr-bubble"></span> 02
+                                Comments</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 blog-zoom-3">
+                        <div class="thumb ">
+                            <img class="img-fluid" src="./images/b3.jpg"
+                                alt>
+                        </div>
+                        <p class="date">10 Jan 2018</p>
+                        <h4 class="blog-text">How to check steak if
+                            it is tender or not</h4>
+                        <p>
+                            inappropriate behavior ipsum dolor sit amet,
+                            consectetur.
+                        </p>
+                        <div
+                            class="meta-bottom d-flex justify-content-between">
+                            <p><span class="lnr lnr-heart"></span> 15
+                                Likes</p>
+                            <p><span class="lnr lnr-bubble"></span> 02
+                                Comments</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 blog-zoom-4">
+                        <div class="thumb">
+                            <img class="img-fluid" src="./images/b4.jpg"
+                                alt>
+                        </div>
+                        <p class="date">10 Jan 2018</p>
+                        <h4 class="blog-text">Addiction When Gambling
+                            Becomes A Problem</h4>
+                        <p>
+                            inappropriate behavior ipsum dolor sit amet,
+                            consectetur.
+                        </p>
+                        <div
+                            class="meta-bottom d-flex justify-content-between">
+                            <p><span class="lnr lnr-heart"></span> 15
+                                Likes</p>
+                            <p><span class="lnr lnr-bubble"></span> 02
+                                Comments</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- map-form -->
+        <section class="location-area" id="Contact">
+            <div id="map">
+            </div>
+            <form class="loc-form">
+                <input class="input" type="text"
+                    placeholder="Enter your name" required>
+                <input class="input" type="text"
+                    placeholder="Enter your age" required>
+                <input class="input-msg" type="text" placeholder="message"
+                    required>
+                <input class="send" type="submit" value="send message">
+                <span class="lnr lnr-arrow-right"></span>
+            </form>
+        </section>
+
+        <!-- footer-sec -->
+        <footer class="footer-area section-gap">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4 class="text-white">About Us</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4 class="text-white">Contact Us</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore dolore magna aliqua.
+                            </p>
+                            <p class="number">
+                                012-6532-568-9746 <br>
+                                012-6532-569-9748
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5  col-md-6 col-sm-6">
+
+                        <div class="single-footer-widget">
+                            <h4 class="text-white">Newsletter</h4>
+                            <p>You can trust us. we only send offers, not a
+                                single spam.</p>
+
+                            <div class="d-flex flex-row"
+                                id="mc_embed_signup">
+                                <form class="navbar-form" novalidate="true">
+                                    <div class="input-group add-on">
+                                        <input class="form-control"
+                                            type="email"
+                                            placeholder="Email address"
+                                            required>
+                                    </div>
+                                    <div class="info mt-20"></div>
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+
+                    <p class="footer-text m-0">Copyright
+                        &copy;<script>document.write(new Date().getFullYear());</script>
+                        All rights reserved | This template is made with <i
+                            class="fa fa-heart-o" aria-hidden="true"></i> by
+                        <a
+                            href="#">Mohamed Elgantery</a></p>
+
+                    <div class="footer-social d-flex align-items-center">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+
+</html>
