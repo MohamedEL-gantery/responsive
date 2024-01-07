@@ -67,8 +67,8 @@ $(".chef-icon4").hover(
 );
 //////////////////////////
 var photos = [
-  "./images/slider1.jpg",
-  "./images/burger.png",
+  "./images/slider1.png",
+  "./images/burger.jpg",
   "./images/pizza.jpg",
   "./images/burger-1.png",
 ];
