@@ -579,34 +579,41 @@ single-footer-widget .navbar-form {
   }
 
   .banner-area {
-    min-width: 400%;
+    width: 400%;
+    height: 350vh;
+    padding: 400px;
   }
 
   .banner-content {
-    margin-top: -200px;
-    margin-left: 10px;
+    margin-top: 200px;
+    margin-left: -140px;
+    line-height: 4;
   }
 
   .banner-content h1 {
-    font-size: 80px;
+    font-size: 150px;
   }
 
   .banner-content h4 {
-    font-size: 25px;
+    font-size: 80px;
   }
 
   .banner-content p {
-    font-size: 30px;
+    font-size: 60px;
+    text-align: justify;
     line-height: 1.5;
   }
 
   .banner-content .header-btn {
-    font-size: 20px;
+    font-size: 40px;
     width: 400px;
+    padding: 12px;
   }
 
   .thumb {
     overflow: hidden;
+    width: 1200px;
+    height: 1000px;
   }
   #dish {
     width: 350%;
@@ -643,9 +650,24 @@ single-footer-widget .navbar-form {
   }
 
   .video {
-    min-width: 400%;
+    width: 400%;
+    height: 200vh;
+    text-align: center;
   }
 
+  .video img {
+    width: 500px;
+  }
+
+  .video h3 {
+    font-size: 70px;
+    margin-top: 50px;
+  }
+
+  .video p {
+    font-size: 50px;
+    margin-top: 50px;
+  }
   .cook-area {
     width: 200%;
     padding: 12px;
@@ -826,7 +848,6 @@ single-footer-widget .navbar-form {
   }
 
   .blog-card {
-    margin-left: 150px;
     padding: 0;
     width: 1200px;
   }
@@ -841,16 +862,19 @@ single-footer-widget .navbar-form {
     width: 400px;
     height: 60px;
     padding: 8px;
+    margin-left: 40px;
   }
 
   .blog-card h4 {
     font-size: 60px;
+    margin-left: 40px;
   }
 
   .blog-card p {
     font-size: 40px;
     line-height: 1.5;
     width: 1000px;
+    margin-left: 40px;
   }
 
   .location-area {
@@ -870,17 +894,34 @@ single-footer-widget .navbar-form {
 
   .input {
     width: 1200px;
-    height: 50px;
+    height: 160px;
   }
   .input-msg {
     width: 1200px;
+    height: 320px;
   }
   .send {
     width: 400px;
-    font-size: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    padding: 32px;
   }
 
   .footer-area {
     width: 400%;
+    height: 150vh;
+  }
+
+  .footer-area h4 {
+    font-size: 60px;
+  }
+
+  .footer-area p {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  .number,
+  .fa {
+    font-size: 30px;
   }
 }
