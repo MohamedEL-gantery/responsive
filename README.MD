@@ -10,8 +10,6 @@ Welcome to the Restaurant Website Template! This template is designed to help yo
 
 -**Attractive Layout**: The clean and visually appealing layout is designed to showcase your restaurant's brand and menu items effectively.
 
--**Menu Display**: The template includes sections to display your menu items, complete with descriptions and prices, making it easy for visitors to explore your offerings.
-
 -**Image Gallery**: Showcase your restaurant's ambiance, dishes, and special events with the built-in image gallery feature.
 
 -**Contact Information**: Provide essential contact information, including address, phone number, and email, allowing customers to get in touch easily.
